@@ -1,0 +1,8670 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{xcolor}
+\usepackage{rubikcube}
+\usepackage{colortbl}
+\usepackage{metalogo}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Baskerville
+\font_sans Helvetica Neue
+\font_typewriter Consolas
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "The Roux Method"
+\pdf_author "Troy Telford"
+\pdf_subject "Speedsolving"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 1cm
+\rightmargin 1cm
+\bottommargin 1cm
+\headheight 1cm
+\headsep 1cm
+\footskip 0.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Below are color definitions, using W3C HTML color names.
+\end_layout
+
+\begin_layout Plain Layout
+
+% "Interesting" Colors
+\end_layout
+
+\begin_layout Plain Layout
+
+% Purple
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{P}{HTML}{800080}
+\end_layout
+
+\begin_layout Plain Layout
+
+% MediumPurple
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{p}{HTML}{9370DB}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Front Colors
+\end_layout
+
+\begin_layout Plain Layout
+
+% Olive
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{L}{HTML}{808000}
+\end_layout
+
+\begin_layout Plain Layout
+
+% Dark Olive
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{l}{HTML}{556B2F}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Back Colors
+\end_layout
+
+\begin_layout Plain Layout
+
+% Salmon
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{S}{HTML}{FA8072}
+\end_layout
+
+\begin_layout Plain Layout
+
+% LightSalmon
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{S}{HTML}{FFA07A}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Left Colors
+\end_layout
+
+\begin_layout Plain Layout
+
+% Teal
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{T}{HTML}{008080}
+\end_layout
+
+\begin_layout Plain Layout
+
+% lightteal
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{t}{HTML}{B2D9D9}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Right Colors
+\end_layout
+
+\begin_layout Plain Layout
+
+% Magenta
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{M}{HTML}{FF00FF}
+\end_layout
+
+\begin_layout Plain Layout
+
+% Thistle
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{m}{HTML}{D8BFD8}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Bottom Colors
+\end_layout
+
+\begin_layout Plain Layout
+
+% Charteuse
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{C}{HTML}{7FFF00}
+\end_layout
+
+\begin_layout Plain Layout
+
+% Charteuse (pastel)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{c}{HTML}{DFFFC0}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Top Colors
+\end_layout
+
+\begin_layout Plain Layout
+
+% Tan
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{A}{HTML}{D2B48C}
+\end_layout
+
+\begin_layout Plain Layout
+
+% Bisque
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{a}{HTML}{FFE4C4}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+Learning the Roux Method
+\end_layout
+
+\begin_layout Author
+Troy Telford
+\end_layout
+
+\begin_layout Abstract
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "Roux Method"
+target "http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCoQFjAA&url=http%3A%2F%2Fgrrroux.free.fr%2Fmethod%2FIntro.html&ei=cyclU7m6G4LooASH5oHAAw&usg=AFQjCNGZFSBCujw9DtADrNvYnMK1Le8PPQ&sig2=-AhMD3Or1MlyFxeP8MGOCg&bvm=bv.62922401,d.cGU"
+
+\end_inset
+
+ is a method of solving a 3
+\begin_inset Formula $\times$
+\end_inset
+
+3 Rubik's cube quickly.
+ It is described by it's creator as 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+A speed-cubing technique for experienced cubers.
+ Other cubers may use a similar approach, because there's nothing very special
+ about it.
+ When I found it, I decided to give it a chance because you can make it
+ very efficient using a limited set of formulæ.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=1.0]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikCubeSolved
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+DrawRubikCubeRU
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Description
+\end_layout
+
+\begin_layout Standard
+The Roux method is a 3
+\begin_inset Formula $\times$
+\end_inset
+
+3 speedsolving method invented by 
+\begin_inset CommandInset href
+LatexCommand href
+name "Gilles Roux"
+target "http://www.speedsolving.com/wiki/index.php/Gilles_Roux"
+
+\end_inset
+
+.
+ Roux works with block building, similar to 
+\begin_inset CommandInset href
+LatexCommand href
+name "Petrus"
+target "http://www.speedsolving.com/wiki/index.php/Petrus"
+
+\end_inset
+
+ or 
+\begin_inset CommandInset href
+LatexCommand href
+name "Waterman"
+target "http://www.speedsolving.com/wiki/index.php/Waterman_method"
+
+\end_inset
+
+.
+ Roux has fewer algorithms to memorize than CFOP, as all but the third step
+ are done intuitively, instead of by following a large, predefined set of
+ algorithms.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+RubikCubeSolved}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUpAll{A}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDownAll{C}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeftAll{T}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRightAll{M}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFrontAll{L}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBackAll{S}%
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Advantages of Roux:
+\end_layout
+
+\begin_layout Itemize
+Roux is very move efficient
+\end_layout
+
+\begin_layout Itemize
+Few algorithms to memorize
+\end_layout
+
+\begin_layout Itemize
+Does not require the user to rotate the entire puzzle.
+\end_layout
+
+\begin_layout Itemize
+Most of a Roux solve is `intuitive,' meaning the solver figures out the
+ right move for the situation on the fly.
+\end_layout
+
+\begin_layout Section*
+Disadvantages of Roux:
+\end_layout
+
+\begin_layout Itemize
+Not as many algorithms, so good lookahead is required for speed
+\end_layout
+
+\begin_layout Itemize
+Takes a lot of learning how the 3
+\begin_inset Formula $\times$
+\end_inset
+
+3 moves and works when starting out.
+\end_layout
+
+\begin_layout Itemize
+Block building takes time to learn.
+\end_layout
+
+\begin_layout Section*
+Tutorial Video
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "Donovan"
+target "http://lubixcube.com/Contact.html"
+
+\end_inset
+
+ at LubixCube has created an 
+\begin_inset CommandInset href
+LatexCommand href
+name "excellent YouTube tutorial playlist"
+target "https://www.youtube.com/playlist?list=PL754ADDA2E38A21AA"
+
+\end_inset
+
+ on the Roux method.
+\end_layout
+
+\begin_layout Section*
+Annotation and Orientation conventions in this document:
+\end_layout
+
+\begin_layout Standard
+This document is edited with LyX, and typeset using 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+XeLaTeX
+\end_layout
+
+\end_inset
+
+, a free software typesetting system.
+ Moves and cube graphics are generated using the 
+\family sans
+
+\begin_inset CommandInset href
+LatexCommand href
+name "rubikcube"
+target "http://www.ctan.org/tex-archive/macros/latex/contrib/rubik"
+
+\end_inset
+
+
+\family default
+ package for 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Cubies
+\end_layout
+
+\begin_layout Standard
+Cubies are colored using nonstandard colors in an attempt to be color agnostic.
+ Some colors vary depending on how `interested' we are in the piece.
+ I attempt to follow a consistent convention:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="2">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Color
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Purpose
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cellcolor{X}
+\end_layout
+
+\end_inset
+
+Gray
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Don't Care
+\begin_inset Quotes erd
+\end_inset
+
+ or otherwise uninteresting
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cellcolor{P}
+\end_layout
+
+\end_inset
+
+Purple
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Important for this step
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cellcolor{A}
+\end_layout
+
+\end_inset
+
+Tan
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Top
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cellcolor{C}
+\end_layout
+
+\end_inset
+
+Lime
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bottom
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cellcolor{T}
+\end_layout
+
+\end_inset
+
+Teal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Left
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cellcolor{M}
+\end_layout
+
+\end_inset
+
+Magenta
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Right
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cellcolor{L}
+\end_layout
+
+\end_inset
+
+Olive
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Front
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cellcolor{S}
+\end_layout
+
+\end_inset
+
+Salmon
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Back
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Rotations
+\end_layout
+
+\begin_layout Standard
+Rotations follow the convention set by the 
+\begin_inset CommandInset href
+LatexCommand href
+name "WCA Notation Regulations."
+target "https://www.worldcubeassociation.org/regulations/#article-12-notation"
+
+\end_inset
+
+ Moves contain both the 
+\begin_inset CommandInset href
+LatexCommand href
+name "WCA notation"
+target "https://www.worldcubeassociation.org/regulations/#article-12-notation"
+
+\end_inset
+
+ (such as 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rrR
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rrUp
+\end_layout
+
+\end_inset
+
+, etc) , as well as a `heiroglyph' (such as 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rrhR
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rrhUp
+\end_layout
+
+\end_inset
+
+).
+ I find the combination of the two (such as 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikR
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikUp
+\end_layout
+
+\end_inset
+
+) helps beginners learn the notation, while preserving familiarity for more
+ seasoned solvers.
+\end_layout
+
+\begin_layout Section*
+Basic Steps:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="2">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="middle" width="2.75in">
+<column alignment="left" valignment="middle" width="3in">
+<row endhead="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Step
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUpAll{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeft
+\end_layout
+
+\begin_layout Plain Layout
+
+{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRightAll{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront   {X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBackAll{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeLD
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The 
+\emph on
+First Block
+\emph default
+ is a 1
+\begin_inset Formula $\times$
+\end_inset
+
+2
+\begin_inset Formula $\times$
+\end_inset
+
+3 block of the same color.
+ The block is usually placed on the left side of the puzzle, leaving the
+ right side open for movement.
+ (Sides are reversed depending on solver preference or handedness.)
+\end_layout
+
+\begin_layout Plain Layout
+The first block is solved intuitively, so there are no set algorithms.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Donovan"
+target "http://lubixcube.com/Contact.html"
+
+\end_inset
+
+'s 
+\begin_inset CommandInset href
+LatexCommand href
+name "First Block tutorial"
+target "https://www.youtube.com/watch?v=ESYJ-DFx0Qo&index=2&list=PL754ADDA2E38A21AA"
+
+\end_inset
+
+ on YouTube is quite helpful.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUpAll{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeft
+\end_layout
+
+\begin_layout Plain Layout
+
+{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{T}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{T}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRight
+\end_layout
+
+\begin_layout Plain Layout
+
+{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront
+\end_layout
+
+\begin_layout Plain Layout
+
+{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBackAll{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeRD
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The 
+\emph on
+Second Block
+\emph default
+ is a second 1
+\begin_inset Formula $\times$
+\end_inset
+
+2
+\begin_inset Formula $\times$
+\end_inset
+
+3 block of the opposite color of the first block.
+ The block is placed on the opposite side of the first block.
+ This step must be performed using only 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikR
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikRw
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikU
+\end_layout
+
+\end_inset
+
+, and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikM
+\end_layout
+
+\end_inset
+
+ (and their primes).
+\end_layout
+
+\begin_layout Plain Layout
+As long as moves are constrained to those eight rotations, the first block
+ is preserved.
+\end_layout
+
+\begin_layout Plain Layout
+The second block is also solved intuitively, and there are not set algorithms.
+ Again, Donovan's 
+\begin_inset CommandInset href
+LatexCommand href
+target "YouTube tutorial"
+
+\end_inset
+
+ is helpful.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUp
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeft
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{T}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{T}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRight
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{M}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{M}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBackAll{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeRU
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The third step is called 
+\emph on
+CMLL
+\emph default
+.
+ This step solves the corners of the last layer, ignoring the 
+\family sans
+M
+\family default
+-slice and 
+\family sans
+U-layer
+\family default
+ edges.
+\end_layout
+
+\begin_layout Plain Layout
+There are 42 algorithms in full Roux, which both orient and permute simultaneous
+ly.
+ For beginners, this step is often broken into two `looks', orienting with
+ seven algorithms and permuting with two.
+\end_layout
+
+\begin_layout Plain Layout
+Because of the freedom to ignore the 
+\family sans
+M
+\family default
+-slice and 
+\family sans
+U
+\family default
+-Layer edges, the algorithms are often shorter and faster than CFOP's COLL.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Last 6 Edges
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L6E, or the last 6 edges of the 
+\family sans
+M
+\family default
+-Slice are solved; this step has three sub-steps.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUp
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{P}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{A}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{P}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{P}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{C}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{P}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeft
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{P}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{T}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{T}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRight
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{P}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{M}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{M}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{P}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{L}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{P}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBack
+\end_layout
+
+\begin_layout Plain Layout
+
+{S}{P}{S}
+\end_layout
+
+\begin_layout Plain Layout
+
+{S}{S}{S}
+\end_layout
+
+\begin_layout Plain Layout
+
+{S}{P}{S}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeFlat
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Orientation: also known as 
+\begin_inset Quotes eld
+\end_inset
+
+Fixing Bad Edges
+\begin_inset Quotes erd
+\end_inset
+
+, is a repetitive process.
+ There are a total of nine orientations, and three `mini' algorithms that
+ cycle into another orientation.
+ The solver simply cycles until all orientations are solved.
+ Oriented pieces are `flipped' correctly.
+ It doesn't matter if they are on top or bottom at this stage, just that
+ the top and bottom cubies are on the top or bottom.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUp
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{X}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{A}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{X}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{X}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{C}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{X}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeft
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{P}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{T}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{T}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRight
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{P}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{M}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{M}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{L}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBackAll{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeRU
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Solving the 
+\family sans
+UL
+\family default
+ and 
+\family sans
+UR
+\family default
+ edges
+\emph default
+: A simple step in theory.
+ You want the 
+\family sans
+L
+\family default
+ and 
+\family sans
+R
+\family default
+ sides to be completely solved.
+ This must be performed while preserving orientation.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikCubeSolved
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+DrawRubikCubeRU
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Solving the Remaining Edges
+\emph default
+: Very fast, can often be performed in four moves.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+First Block
+\end_layout
+
+\begin_layout Standard
+The first block is relatively simple, and is solved intuitively (
+\emph on
+i.e.
+
+\emph default
+ use your brain).
+ The first layer can be solved in a number of ways:
+\end_layout
+
+\begin_layout Itemize
+By solving 
+\begin_inset Formula $\frac{2}{3}$
+\end_inset
+
+ of the 
+\begin_inset CommandInset href
+LatexCommand href
+name "`Beginner' first layer instructions"
+target "http://www.rubiks.com/solving-center/pdf/Rubiks_cube_3x3_solution-en.pdf"
+
+\end_inset
+
+ that come with nearly every Rubik's cube.
+\end_layout
+
+\begin_layout Itemize
+By applying the techniques used for the 2
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+nd
+\end_layout
+
+\end_inset
+
+ block
+\end_layout
+
+\begin_layout Section*
+Second Block
+\end_layout
+
+\begin_layout Standard
+For the second block, we have our first limitation to our moves: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikL
+\end_layout
+
+\end_inset
+
+ , 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikF
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikD
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikB
+\end_layout
+
+\end_inset
+
+, and their primes are no longer allowed.
+ This limits movement to 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikR
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikRw
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikU
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikM
+\end_layout
+
+\end_inset
+
+, and their primes.
+ You can clamp your left hand down on those bottom-left cubies, because
+ they're not moving any more
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Until the CMLL stage, that is.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Only the 2
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+nd
+\end_layout
+
+\end_inset
+
+ block side (the right hand side for most solvers) is shown.
+ It's solved by solving two 1
+\begin_inset Formula $\times$
+\end_inset
+
+2 blocks, and a 1
+\begin_inset Formula $\times$
+\end_inset
+
+1 block.
+ The order of solving them is important for speed, though not strictly necessary.
+ Other ways to solve it are possible; in general you want to pick what will
+ be fastest for your particular scramble.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="4">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="middle" width="1.5in">
+<column alignment="center" valignment="middle" width="1.5in">
+<column alignment="center" valignment="middle" width="1.5in">
+<column alignment="center" valignment="middle" width="1.5in">
+<row>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.5]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace {X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (.5,.5) {1};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (1.5,.5){2};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (2.5,.5){3};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (0.5, 1.5) {1};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (2.5,1.5){3};
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.5]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace {X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (.5,.5) {3};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (1.5,.5){2};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (2.5,.5){1};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (0.5, 1.5) {3};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (2.5,1.5){1};
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.5]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace {X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (.5,.5) {1};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (1.5,.5){1};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (2.5,.5){3};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (0.5, 1.5) {2};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (2.5,1.5){3};
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.5]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace {X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB{P}{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (.5,.5) {3};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (1.5,.5){1};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (2.5,.5){1};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (0.5, 1.5) {3};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node at (2.5,1.5){2};
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+CMLL
+\end_layout
+
+\begin_layout Standard
+CMLL means 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+C
+\emph default
+orners of the 
+\emph on
+L
+\emph default
+ast 
+\emph on
+L
+\emph default
+ayer, without regard to the 
+\family sans
+M
+\family default
+-slice pieces.
+\begin_inset Quotes erd
+\end_inset
+
+ It's a variant of CXLL (Corners of Last Layer) that is optimized to ignore
+ the the edge pieces, which are solved later in Roux.
+\end_layout
+
+\begin_layout Subsection*
+Learning Note
+\end_layout
+
+\begin_layout Standard
+I find it helpful to solve a 2
+\begin_inset Formula $\times$
+\end_inset
+
+2 to learn the CMLL algorithms; it's a variant of a layer-by-layer solve
+ for the 2
+\begin_inset Formula $\times$
+\end_inset
+
+2, and I can spend more time concentrating on memorizing the algorithms,
+ without spending time solving the edge pieces.
+\end_layout
+
+\begin_layout Subsection*
+Absolute Beginner
+\end_layout
+
+\begin_layout Standard
+For the absolute beginner, there are only two algorithms that must be memorized
+ to solve CMLL: One for orientation, the other to permute the corners.
+ In both cases, if the starting point doesn't match the diagram, then the
+ algorithm needs to be applied multiple times to achieve the desired result.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="middle" width="1in">
+<column alignment="center" valignment="middle" width="2in">
+<column alignment="center" valignment="middle" width="1in">
+<column alignment="center" valignment="middle" width="3in">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Operation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pattern
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Algorithm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Orient
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{P}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace {X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{P}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR	{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB{X}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sune
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikR 
+\backslash
+RubikU 
+\backslash
+RubikRp 
+\backslash
+RubikU 
+\backslash
+RubikR 
+\backslash
+RubikUp2 
+\backslash
+RubikRp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Permute
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7] 	
+\backslash
+DrawRubikLayerSideT{M}{X}{T} 	
+\backslash
+DrawRubikLayerFace {P}{X}{P} 						{X}{X}{X} 						{X}{X}{X} 	
+\backslash
+DrawRubikLayerSideLR	{S}{S} 							 {X}{X} 							 {X}{X} 	
+\backslash
+DrawRubikLayerSideB{X}{X}{X} 	
+\backslash
+draw[<->, ultra thick, color=magenta] (0.5, 2.5) -- (2.5, 2.5); 
+\backslash
+end{tikzpicture} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Adjacent Swap
+\end_layout
+
+\begin_layout Plain Layout
+J-Perm
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikRp 
+\backslash
+RubikU 
+\backslash
+RubikLp 
+\backslash
+RubikU2 
+\backslash
+RubikR 
+\backslash
+RubikUp 
+\backslash
+RubikRp 
+\backslash
+RubikU2 
+\backslash
+RubikL2 
+\backslash
+Rubikr 
+\backslash
+RubikUp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Orientation: 
+\end_layout
+
+\begin_layout Standard
+This is where we change the orientation of the four corners; we want each
+ corner oriented up properly.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="middle" width="2in">
+<column alignment="center" valignment="middle" width="1in">
+<column alignment="center" valignment="top" width="4in">
+<row endhead="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pattern
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Algorithm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{X}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace {P}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR	{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB{P}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anti-Sune
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikRp 
+\backslash
+RubikUp 
+\backslash
+RubikR 
+\backslash
+RubikUp 
+\backslash
+RubikRp 
+\backslash
+RubikUp2 
+\backslash
+RubikR
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{P}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace {X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{P}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR	{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB{X}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sune
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikR 
+\backslash
+RubikU 
+\backslash
+RubikRp 
+\backslash
+RubikU 
+\backslash
+RubikR 
+\backslash
+RubikUp2 
+\backslash
+RubikRp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace {X}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{P}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR	{P}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB{X}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L
+\end_layout
+
+\begin_layout Plain Layout
+Bowtie 
+\end_layout
+
+\begin_layout Plain Layout
+Triple Sune
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(U\right)$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikLp 
+\backslash
+RubikUp 
+\backslash
+RubikLp 
+\backslash
+RubikU 
+\backslash
+RubikR 
+\backslash
+RubikUp 
+\backslash
+RubikL 
+\backslash
+RubikU 
+\backslash
+Rubikl 
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+linebreak
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $\left(U'\right)$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikF 
+\backslash
+RubikRp 
+\backslash
+RubikFp 
+\backslash
+RubikR 
+\backslash
+RubikU 
+\backslash
+RubikR 
+\backslash
+RubikUp 
+\backslash
+RubikRp 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{P}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace {X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{P}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR	{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+U
+\end_layout
+
+\begin_layout Plain Layout
+Headlights
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikUp 
+\backslash
+RubikF
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $\left(\RubikR\RubikU\RubikRp\RubikUp\right)$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikFp 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace {X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{P}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR	{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T
+\end_layout
+
+\begin_layout Plain Layout
+Chameleon
+\end_layout
+
+\begin_layout Plain Layout
+Blinkers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikUp
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $\left(\RubikR\RubikU\RubikRp\RubikUp\right)$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikRp 
+\backslash
+RubikF 
+\backslash
+RubikR 
+\backslash
+RubikFp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{X}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace {X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR	{P}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {P}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB{X}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+π
+\end_layout
+
+\begin_layout Plain Layout
+Bruno
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikF
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $\left(\RubikR\RubikU\RubikRp\RubikUp\right)^{2}$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikFp
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace {X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+						{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR	{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+							 {P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB{X}{X}{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+H 
+\end_layout
+
+\begin_layout Plain Layout
+Double Headlights 
+\end_layout
+
+\begin_layout Plain Layout
+Double Anti-Sune
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikU 
+\backslash
+RubikR 
+\backslash
+RubikU2 
+\backslash
+RubikRp 
+\backslash
+RubikUp
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\left(\RubikR\RubikU\RubikRp\RubikUp\right)$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikR 
+\backslash
+RubikUp 
+\backslash
+RubikRp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Permutation:
+\end_layout
+
+\begin_layout Standard
+This is where we change the position of the corners.
+ There are only two algorithms.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="middle" width="2in">
+<column alignment="center" valignment="middle" width="1in">
+<column alignment="center" valignment="top" width="4in">
+<row endhead="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pattern
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Algorithm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7] 	
+\backslash
+DrawRubikLayerSideT{M}{X}{T} 	
+\backslash
+DrawRubikLayerFace {P}{X}{P} 						{X}{X}{X} 						{X}{X}{X} 	
+\backslash
+DrawRubikLayerSideLR	{S}{S} 							 {X}{X} 							 {X}{X} 	
+\backslash
+DrawRubikLayerSideB{X}{X}{X} 	
+\backslash
+draw[<->, ultra thick, color=magenta] (0.5, 2.5) -- (2.5, 2.5); 
+\backslash
+end{tikzpicture} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Adjacent Swap
+\end_layout
+
+\begin_layout Plain Layout
+J-Perm
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikRp 
+\backslash
+RubikU 
+\backslash
+RubikLp 
+\backslash
+RubikU2 
+\backslash
+RubikR 
+\backslash
+RubikUp 
+\backslash
+RubikRp 
+\backslash
+RubikU2 
+\backslash
+RubikL2 
+\backslash
+Rubikr 
+\backslash
+RubikUp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7] 	
+\backslash
+DrawRubikLayerSideT{L}{X}{X} 	
+\backslash
+DrawRubikLayerFace {P}{X}{X} 						{X}{X}{X} 						{X}{X}{P} 	
+\backslash
+DrawRubikLayerSideLR	{M}{X} 							 {X}{X} 							 {X}{T} 	
+\backslash
+DrawRubikLayerSideB{X}{X}{L} 	
+\backslash
+draw[<->,ultra thick,color=magenta] (0.5, 2.5) -- (2.5, 0.5); 
+\backslash
+end{tikzpicture} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diag Swap
+\end_layout
+
+\begin_layout Plain Layout
+Not-N-Perm
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikRp 
+\backslash
+RubikU 
+\backslash
+RubikLp 
+\backslash
+RubikU2 
+\backslash
+RubikR 
+\backslash
+RubikUp 
+\backslash
+Rubikl 
+\backslash
+RubikU 
+\backslash
+RubikLp 
+\backslash
+RubikU2 
+\backslash
+RubikR 
+\backslash
+RubikUp 
+\backslash
+RubikR 
+\backslash
+Rubikl
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Orientation of Top & Bottom
+\end_layout
+
+\begin_layout Standard
+For this, we want to orient the pieces so the `top' and `bottom' pieces
+ are pointing vertically.
+ It does not matter at this point whether the pieces are pointing up or
+ down, just that they are on either the 
+\family sans
+U
+\family default
+ or 
+\family sans
+D
+\family default
+ face.
+ Edges that are not oriented properly are nicknamed `bad' edges, because
+ they're not oriented the way we'd like.
+ Bad edges are 
+\emph on
+always
+\emph default
+ in pairs, so it's easy to deduce where an `odd' unmatched bad edge is,
+ 
+\emph on
+even if you can't see it
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="4">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="1in">
+<column alignment="center" valignment="middle" width="1.25in">
+<column alignment="center" valignment="middle" width="1.25in">
+<column alignment="center" valignment="middle" width="3.5in">
+<row endhead="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Case
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Top
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bottom 
+\begin_inset Formula $\left(\Rubikr\right)2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Algorithm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6 (All) Bad Edges
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7] 	
+\backslash
+DrawRubikLayerSideT{W}{P}{W} 	
+\backslash
+DrawRubikLayerFace {W}{P}{W} {P}{W}{P} {W}{P}{W} 	
+\backslash
+DrawRubikLayerSideLR {W}{W} {P}{P} {W}{W} 	
+\backslash
+DrawRubikLayerSideB {W}{P}{W} 
+\backslash
+end{tikzpicture} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7] 	
+\backslash
+DrawRubikLayerSideT{W}{P}{W} 	
+\backslash
+DrawRubikLayerFace {W}{P}{W} {W}{W}{W} {W}{P}{W} 	
+\backslash
+DrawRubikLayerSideLR {W}{W} {W}{W} {W}{W} 	
+\backslash
+DrawRubikLayerSideB {W}{P}{W} 
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cycling: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Direct: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikMp 
+\backslash
+RubikU2 
+\backslash
+RubikM 
+\backslash
+RubikU 
+\backslash
+RubikM 
+\backslash
+RubikU 
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 Bad Edges 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+linebreak
+\end_layout
+
+\end_inset
+
+ UL/UR/DF/DB 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+linebreak
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Cradle
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7] 	
+\backslash
+DrawRubikLayerSideT{W}{P}{W} 	
+\backslash
+DrawRubikLayerFace {W}{P}{W} {W}{W}{W} {W}{P}{W} 	
+\backslash
+DrawRubikLayerSideLR {W}{W} {W}{W} {W}{W} 	
+\backslash
+DrawRubikLayerSideB {W}{P}{W} 
+\backslash
+end{tikzpicture} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cycling: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU2 
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Direct: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikM 
+\backslash
+RubikU2 
+\backslash
+RubikMp 
+\backslash
+RubikU2 
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 Bad Edges
+\end_layout
+
+\begin_layout Plain Layout
+UL/UR/UF/DF
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Arrow
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{W}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cycling: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Direct: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Reflection: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikM 
+\backslash
+RubikU 
+\backslash
+RubikM
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Archer
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 Bad Edges UL/UR/UF/UB
+\end_layout
+
+\begin_layout Plain Layout
+``Cross
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{W}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cycling: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU2 
+\backslash
+RubikMp 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Direct: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU2 
+\backslash
+RubikMp 
+\backslash
+RubikU2 
+\backslash
+RubikM 
+\backslash
+RubikU 
+\backslash
+RubikMp 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 Bad Edges
+\end_layout
+
+\begin_layout Plain Layout
+UL/UB/DF/DB
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Stinger
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cycling: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Direct: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikM2 
+\backslash
+RubikUp 
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 Bad Edges 
+\end_layout
+
+\begin_layout Plain Layout
+UL/UB
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Confused L
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cycling: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Direct: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikU2 
+\backslash
+RubikRw 
+\backslash
+RubikU 
+\backslash
+RubikRp 
+\backslash
+RubikU 
+\backslash
+RubikM 
+\backslash
+RubikUp 
+\backslash
+RubikR 
+\backslash
+RubikUp 
+\backslash
+RubikRp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 Bad Edges
+\end_layout
+
+\begin_layout Plain Layout
+UF/UB
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+March
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cycling: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Direct: 
+\begin_inset Formula $\left(\RubikR\RubikU\RubikRp\RubikUp\right)$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikR 
+\backslash
+RubikUp 
+\backslash
+RubikRwp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 Bad Edges
+\end_layout
+
+\begin_layout Plain Layout
+UF/DB
+\end_layout
+
+\begin_layout Plain Layout
+``DieDieDie
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cycling: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Direct: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikMp 
+\backslash
+RubikUp 
+\backslash
+RubikM 
+\backslash
+RubikU 
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Reflection: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikM 
+\backslash
+RubikU 
+\backslash
+RubikM
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+LIVELIVELIVE
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 Bad Edges
+\end_layout
+
+\begin_layout Plain Layout
+DF/DB
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+6ft.
+ Under
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{W}{P}{W}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cycling: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Direct: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp 
+\backslash
+RubikU 
+\backslash
+RubikMp 
+\backslash
+RubikUp 
+\backslash
+RubikM 
+\backslash
+RubikU 
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+UL/UR Permutation:
+\end_layout
+
+\begin_layout Standard
+This step is easy; you can just keep doing 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikM2
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikU
+\end_layout
+
+\end_inset
+
+ moves to permute things into place.
+ 
+\end_layout
+
+\begin_layout Itemize
+The main algorithm is 
+\begin_inset Formula $\left(\RubikMp\lor\RubikM\right)$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikU2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\left(\RubikMp\lor\RubikM\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In order to preserve orientation, we are generally limited to 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikM2
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikU
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikUp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+It's OK to use one 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+ or 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikM
+\end_layout
+
+\end_inset
+
+ as long as you follow it with a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikU2
+\end_layout
+
+\end_inset
+
+ and another 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+ or 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikM
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+The same can be said about using 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikD2
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikDp2
+\end_layout
+
+\end_inset
+
+.
+ You can use either, but you will have to rotate it back to preserve the
+ first two blocks.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="middle" width="3.5in">
+<column alignment="left" valignment="top" width="3.5in">
+<row endhead="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Case
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUp
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{T}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{X}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{M}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{X}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{X}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeft
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{P}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{T}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{T}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRight
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{P}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{M}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{M}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{X}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{X}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{A}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBack
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{A}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeFlat
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+We want to have the 
+\family sans
+UL
+\family default
+ and 
+\family sans
+UR
+\family default
+ pieces diagonal from each other, with one in the 
+\family sans
+D
+\family default
+-Layer, and one in the 
+\family sans
+U
+\family default
+-Layer.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUp
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{X}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{P}{X}{P}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{A}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{X}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{X}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{A}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeft
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{P}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{T}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{T}{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRight
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{P}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{M}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{M}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{T}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{X}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBack
+\end_layout
+
+\begin_layout Plain Layout
+
+{S}{X}{S}
+\end_layout
+
+\begin_layout Plain Layout
+
+{S}{X}{S}
+\end_layout
+
+\begin_layout Plain Layout
+
+{S}{M}{S}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeFlat
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+This is an alternative of the same case.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUp
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{X}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{A}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{X}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{X}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{C}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{X}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeftAll{G}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRight
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{M}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{M}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{M}{M}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{X}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{L}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{X}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBackAll{X}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeRU
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+We use 
+\begin_inset Formula $\left(\RubikMp\lor\RubikM\right)$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikU2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\left(\RubikMp\lor\RubikM\right)$
+\end_inset
+
+ to get us to a point where we can put the 
+\family sans
+UL
+\family default
+ and 
+\family sans
+UR
+\family default
+ cubies in place.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Solving the Remaining Edges & Finish
+\end_layout
+
+\begin_layout Standard
+This final step isn't hard, but can get tedious.
+ You want to preserve the orientation of the left & right sides, which generally
+ means 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikM
+\end_layout
+
+\end_inset
+
+-Slices and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikU
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="middle" width="2in">
+<column alignment="center" valignment="middle" width="1in">
+<column alignment="center" valignment="top" width="3.5in">
+<row endhead="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diagram
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Case
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Algorithm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUp
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{A}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{A}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{A}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{C}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{C}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{C}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeftAll{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRightAll{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{P}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{L}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{P}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBackAll{S}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeRU
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Half-a-Dot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikU2 
+\backslash
+RubikM2 
+\backslash
+RubikU2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUp
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{A}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{P}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{A}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{C}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{P}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{C}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeftAll{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRightAll{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{L}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{P}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{L}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBackAll{S}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeRU
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dots
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikE2 
+\backslash
+RubikMp 
+\backslash
+RubikE2 
+\backslash
+RubikM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUp
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{A}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{P}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{P}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{C}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{C}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{C}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeftAll{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRightAll{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{L}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{P}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{P}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBackAll{S}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeRU
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MUU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikU2 
+\backslash
+RubikMp 
+\backslash
+RubikU2 
+\backslash
+RubikMp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUp
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{A}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{P}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{P}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{C}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{P}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{C}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeftAll{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRightAll{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{L}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{P}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{P}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBackAll{S}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeRU
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Worse than MUU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+RubikU2 
+\backslash
+RubikM 
+\backslash
+RubikU2 
+\backslash
+RubikM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Corner Case:
+\end_layout
+
+\begin_layout Standard
+The corner case is the hardest case since recognition isn't easy.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="middle" width="2in">
+<column alignment="left" valignment="middle" width="4.5in">
+<row endhead="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diagram
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUp
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{A}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{A}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{A}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{P}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{P}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{X}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeftAll{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRightAll{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{X}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{P}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{P}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBackAll{O}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeRD
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+In this case, you have what looks like a solved 
+\family sans
+M
+\family default
+-Slice block; an edge is already in place.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceUp
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{Y}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{Y}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{A}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceDown
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{X}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{P}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+{C}{P}{C}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceLeftAll{T}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceRightAll{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceFront
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{X}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{X}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{X}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+RubikFaceBackAll{O}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikCubeRD
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rotate that edge onto 
+\family sans
+D
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[scale=0.7]
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideT{S}{P}{S}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerFace
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{X}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{X}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+{A}{X}{A}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideLR
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+{T}{M}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+DrawRubikLayerSideB
+\end_layout
+
+\begin_layout Plain Layout
+
+{L}{P}{L}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+You will want to find opposite colors that are also in an opposite position.
+ You need this so you can adjust the 
+\family sans
+M
+\family default
+.
+\end_layout
+
+\begin_layout Plain Layout
+From there, it should be easy to find the correct algorithm.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Other Algorithms:
+\end_layout
+
+\begin_layout Standard
+M' U M (when there's the right corners)
+\end_layout
+
+\end_body
+\end_document
