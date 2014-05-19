@@ -572,7 +572,7 @@ target "https://www.youtube.com/playlist?list=PL754ADDA2E38A21AA"
  on the Roux method.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Part*
 Annotation and Orientation conventions in this document:
 \end_layout
 
@@ -619,7 +619,7 @@ LaTeX
 .
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 Cubies
 \end_layout
 
@@ -925,7 +925,7 @@ Back
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 Rotations
 \end_layout
 
@@ -1029,7 +1029,7 @@ RubikUp
  seasoned solvers.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Part*
 Basic Steps:
 \end_layout
 
@@ -2120,7 +2120,7 @@ Solving the Remaining Edges
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Part*
 First Block
 \end_layout
 
@@ -2163,7 +2163,7 @@ nd
  block
 \end_layout
 
-\begin_layout Section*
+\begin_layout Part*
 Second Block
 \end_layout
 
@@ -2810,7 +2810,7 @@ end{tikzpicture}
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Part*
 CMLL
 \end_layout
 
@@ -2857,17 +2857,21 @@ I find it helpful to solve a 2
 \begin_inset Formula $\times$
 \end_inset
 
-2, and I can spend more time concentrating on memorizing the algorithms,
+2, and I can spend more time concentrating on memorizing the CMLL algorithms,
  without spending time solving the edge pieces.
 \end_layout
 
-\begin_layout Subsection*
-Absolute Beginner
+\begin_layout Section*
+Starting Out
 \end_layout
 
 \begin_layout Standard
-For the absolute beginner, there are only two algorithms that must be memorized
- to solve CMLL: One for orientation, the other to permute the corners.
+For the 
+\emph on
+absolute
+\emph default
+ beginner, there are only two algorithms that must be memorized to solve
+ CMLL: One for orientation, the other to permute the corners.
  In both cases, if the starting point doesn't match the diagram, then the
  algorithm needs to be applied multiple times to achieve the desired result.
 \end_layout
@@ -3152,8 +3156,35 @@ RubikUp
 
 \end_layout
 
+\begin_layout Section*
+Intermediate CMLL: 
+\end_layout
+
+\begin_layout Standard
+The following table is a selection of CMLL algorithms; it is an abbreviated
+ list of nine algorithms which allows the corners of the last layer to be
+ solved in two ``looks", which means you set up and perform 
+\emph on
+two
+\emph default
+ algorithms to solve the corners.
+
+\emph on
+ 
+\emph default
+For comparison, the f
+\emph on
+ull
+\emph default
+ CMLL is a set of 42 algorithms which combines the two ``looks" into a 
+\emph on
+single
+\emph default
+ operation -- faster, but requiring more memorization.
+\end_layout
+
 \begin_layout Subsection*
-Orientation: 
+Intermediate Orientation:
 \end_layout
 
 \begin_layout Standard
@@ -4404,7 +4435,11 @@ Rubikl
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Part*
+Last Six Edges (LSE)
+\end_layout
+
+\begin_layout Section*
 Orientation of Top & Bottom
 \end_layout
 
@@ -6679,7 +6714,7 @@ RubikMp
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 UL/UR Permutation:
 \end_layout
 
@@ -7465,7 +7500,7 @@ UR
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Part*
 Solving the Remaining Edges & Finish
 \end_layout
 
@@ -8182,7 +8217,7 @@ RubikM
 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Section*
 Corner Case:
 \end_layout
 
@@ -8605,14 +8640,6 @@ From there, it should be easy to find the correct algorithm.
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section*
-Other Algorithms:
-\end_layout
-
-\begin_layout Standard
-M' U M (when there's the right corners)
 \end_layout
 
 \end_body
